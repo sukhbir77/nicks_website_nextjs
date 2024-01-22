@@ -25,13 +25,13 @@ export default function RootLayout({
           <Image
             src={"/tv_frame.png"}
             alt="Main frame"
-            style={{ zIndex: -1, border: "1px solid yellow" }}
+            style={{ zIndex: -1 }}
             fill={true}
             quality={100}
           />
           <Image
             src={"/bg.gif"}
-            style={{ zIndex: -3, border: "1px solid blue" }}
+            style={{ zIndex: -3 }}
             alt="Background Noise"
             fill={true}
             quality={100}
