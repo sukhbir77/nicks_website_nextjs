@@ -1,0 +1,45 @@
+.navBar {
+  display: flex;
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  @media only screen and (max-width: 600px) {
+    padding: 0px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    padding: 0px;
+  }
+}
+
+.navigation_container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  @media only screen and (max-width: 600px) {
+    width: 70%;
+  }
+}
+
+.navigationText {
+  text-decoration: none;
+  font-size: 48px;
+  color: white;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 14px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: 36px;
+  }
+}
